@@ -399,49 +399,6 @@ Cosine Similarity
 Resume Match Score
 ```
 
----
-
-# ⚙️ Installation
-
-
-Clone repository:
-
-```bash
-git clone https://github.com/yourusername/AI-Resume-Analyzer.git
-
-cd AI-Resume-Analyzer
-```
-
-
-Create virtual environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate:
-
-Linux/Mac:
-
-```bash
-source .venv/bin/activate
-```
-
-
-Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-
 Download NLTK resources:
 
 ```bash
