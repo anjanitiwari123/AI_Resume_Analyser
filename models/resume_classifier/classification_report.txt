@@ -1,0 +1,16 @@
+                        precision    recall  f1-score   support
+
+Database_Administrator       0.96      0.90      0.93       184
+   Front_End_Developer       0.72      0.83      0.77       105
+        Java_Developer       0.97      0.99      0.98       241
+ Network_Administrator       0.94      0.83      0.88        94
+       Project_manager       0.88      0.96      0.92       144
+      Python_Developer       0.98      0.98      0.98       256
+      Security_Analyst       0.95      0.95      0.95       175
+    Software_Developer       0.83      0.60      0.69        87
+ Systems_Administrator       0.90      0.95      0.93       154
+         Web_Developer       0.93      0.95      0.94       194
+
+              accuracy                           0.92      1634
+             macro avg       0.91      0.89      0.90      1634
+          weighted avg       0.92      0.92      0.92      1634
