@@ -197,7 +197,10 @@ Cosine Similarity
 Match Score
 
 ```
+## 🌐 Live Demo
 
+🔗 **Try the application here:**  
+https://airesumeanalyser-at1.streamlit.app/
 ---
 
 # 🛠️ Tech Stack
