@@ -452,26 +452,6 @@ Restart Streamlit to enable resume category prediction.
 
 ---
 
-# 📈 Model Evaluation
-
-
-Evaluation metrics:
-
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Classification Report
-
-
-Example:
-
-```
-Accuracy: XX%
-
-F1 Score: XX%
-```
-
 ---
 
 # 🚀 Future Improvements
