@@ -57,6 +57,7 @@ def load_classifier(model_dir):
 
 def predict_category(text, classifier):
     tokenizer, model, labels = classifier
+
     inputs = tokenizer(
         text,
         truncation=True,
@@ -64,6 +65,7 @@ def predict_category(text, classifier):
         max_length=256,
         return_tensors="pt"
     )
+    inputs.pop("token_type_ids", None)
     with torch.no_grad():
         output = model(**inputs)
     probabilities = torch.softmax(
@@ -73,6 +75,7 @@ def predict_category(text, classifier):
     index = torch.argmax(
         probabilities
     ).item()
+
     return (
         labels[str(index)],
         probabilities[index].item()*100
